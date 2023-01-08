@@ -11,13 +11,14 @@ app.set('view engine', 'ejs');
 
 
 //firing the controller's function
-
 todoController(app)
+
+
 //Handling our static files, whenever we run an url request its gonna map in the public folder
 app.use(express.static('./public'))
 
 
 
 //listening to port
-app.listen(8000);
-console.log('listening on port 8000');
+app.listen(8008);
+console.log('listening on port 8008');
